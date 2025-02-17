@@ -18,7 +18,7 @@ int main(){
     std::string first_name{"Gakwaya"};
     Map<const char*> m2(last_name.c_str(),first_name.c_str());
     auto result = m1.compare_to(m2);
-    std::cout << "result : " << std::boolalpha << result << std::endl;
+    std::cout << "RESULT : " << std::boolalpha << result << std::endl;
    
     return 0;
 }
